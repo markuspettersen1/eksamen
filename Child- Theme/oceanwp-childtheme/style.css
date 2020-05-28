@@ -1,0 +1,83 @@
+Theme Name:   OceanWP-childtheme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  OceanWP Child Theme
+ Author:       Markus
+ Author URI:   http://example.com
+ Template:     oceanwp
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  oceanwpchild
+
+/*Farven på feedbacken orginalen gir på kursus siden*/
+.error{
+    color: #000000;
+}
+
+#name_validation {
+	color: #000000;
+}
+
+#email_validation {
+	color: #000000;
+}
+
+/*Teksten/menypunktene i navigasjonen*/
+.text-wrap{
+    color: #45aea3;
+    font-size: 14px;
+    font-family: montserrat, arial, sans-serif;
+}
+.text-wrap:hover{
+    border-bottom: solid 1px;
+    border-bottom-color: #45aea3;
+    cursor: pointer;
+}
+
+/*Søkeikonet*/
+.icon-magnifier{
+    display: none;
+}
+
+#mobile-search{
+	display: none;
+}
+
+/*Top baren som er fjernet*/
+#top-bar {
+    display: none;
+}
+
+/*Padding til headeren*/
+#site-header{
+    padding: 20px;
+}
+
+/*Bold menypunkt på den siden brukeren er på*/
+.current-menu-item a span{
+    font-weight: 800;
+}
+
+.current_page_item a span{
+    font-weight: 800;
+}
+
+/*Footeren fjernet samt copyright delen av footeren*/
+#footer {
+    background-color: red;
+	display: none;
+}
+
+#copyright {
+	display: none;
+}
+
+/*Den orginale header fra OceanWP temaet*/
+.page-header {
+	display: none;
+}
+
+
+
+
